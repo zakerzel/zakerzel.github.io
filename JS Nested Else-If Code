@@ -1,9 +1,9 @@
-console.log ("Defining time 24 hours");
-var H = prompt("What time is it? ");
+console.log ("Defining time 24 hours"); //Title of the code
+var H = prompt("What time is it? "); //The time input
 if (H < 18) {
-        console.log ("Good day, mate!")
+        console.log ("Good day, mate!") //First if, to determine if its day
 } else if (H >= 18 && H < 24) {
-    console.log("Good night, mate!");
+    console.log("Good night, mate!"); //Nested else if, to determine if its night
 } else {
-    console.log("That ain't correct, mate");
+    console.log("That ain't correct, mate"); //An Else in case an invalid number is typed
 }
