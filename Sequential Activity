@@ -1,7 +1,7 @@
-function FtoC (F) {
+function FtoC (F) { //Formula to translate Farenheit to Celsius
 var C = (F - 32) * 5 / 9;
-return C
+return C //Returns the value of Celsius
 }
-var F = prompt("Enter the temperature in Fahrenheit:");
-var C = FtoC (F);
-console.log(F + " degrees Fahrenheit is equal to " + C + " degrees Celsius.");
+var F = prompt("Enter the temperature in Fahrenheit:"); 
+var C = FtoC (F); //The function
+console.log(F + " degrees Fahrenheit is equal to " + C + " degrees Celsius."); //Final result
