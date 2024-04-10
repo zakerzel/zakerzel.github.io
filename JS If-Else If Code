@@ -1,0 +1,11 @@
+console.log ("What's the value of X?"); //Title of the code
+var X = prompt("Enter the number of X "); //Prompt for X
+if (X<10 && X>-10) {
+    console.log ("Your number is 1 digit"); //If to determine if its a 1 digit number
+}
+if (X<0) {
+    console.log ("Your number is negative"); //If to determine if its negative
+}
+else if (X >= 0) {
+    console.log ("Your number is positive"); //If to determine if its positive
+}
