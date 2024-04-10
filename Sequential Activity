@@ -1,0 +1,7 @@
+function FtoC (F) {
+var C = (F - 32) * 5 / 9;
+return C
+}
+var F = prompt("Enter the temperature in Fahrenheit:");
+var C = FtoC (F);
+console.log(F + " degrees Fahrenheit is equal to " + C + " degrees Celsius.");
