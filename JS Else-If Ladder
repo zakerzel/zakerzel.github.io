@@ -1,0 +1,11 @@
+console.log("Numbers divisible by 3, 2, both, or none:"); //Intention of the code
+var x = prompt("Type the value of X "); //Defining our variable
+if (x % 2 === 0 && x % 3 === 0) {
+    console.log("Divisible by 2 and 3"); //First if that will define if its divisible by the 2 numbers
+} else if (x % 2 === 0) {
+    console.log("Divisible by 2"); //Else if that will only apply if its divisible by 2
+} else if (x % 3 === 0) {
+    console.log("Divisible by 3"); //Else if that will only apply if its divisible by 3
+} else {
+    console.log("Not divisible by 2 or 3"); //Else that will only apply if X cant be divided by 2 nor 3
+}
