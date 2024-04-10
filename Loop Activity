@@ -1,0 +1,6 @@
+console.log("The sum of the first natural numbers");
+let i = 0; // Defining our variable
+while (i < 5) { //Our loop
+    i = i + 1;
+    console.log(i); //Result should be 1 to 5
+}
